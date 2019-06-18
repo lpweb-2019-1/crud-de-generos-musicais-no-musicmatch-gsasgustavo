@@ -5,7 +5,7 @@ import { ValicacaoFormUtilService } from '../valicacao-form-util.service';
 /**
  * O componente `CadastrarArtistaComponent` implementa a funcionalidade de cadastrar
  * artista. Para isso, utiliza o serviço [`ArtistasService`]{@link ArtistasService}.
- * 
+ *
  * @see ArtistasService
  * @see ValicacaoFormUtilService
  */
@@ -23,7 +23,7 @@ export class CadastrarArtistaComponent implements OnInit {
 
   /**
    * O construtor inje ainstâncias de `ArtistasService` e `ValidacacaoFormUtilService`
-   * 
+   *
    * @param artistas$ Uma instância de ArtistasService
    * @param validacao$ Uma instancia de ValidacacaoFormUtilService
    */
@@ -36,7 +36,7 @@ export class CadastrarArtistaComponent implements OnInit {
   /**
    * Este método utiliza o método [`cadastrar()`]{@link ArtistasService#cadastrar}
    * para cadastrar um artista, utilizando os atributos `nome` e `foto`.
-   * 
+   *
    * Quando obtiver um resultado do método, faz um tratamento para lidar com situação
    * de erro ou sucesso.
    */
@@ -53,7 +53,7 @@ export class CadastrarArtistaComponent implements OnInit {
    * foto. Quando o usuário selecionar um arquivo, este método será chamado
    * para obter o primeiro arquivo da lista (parâmetro `files`) e utilizá-lo
    * como a foto do artista.
-   * 
+   *
    * @param files Lista de arquivos
    */
   onChangeFoto(files: FileList) {

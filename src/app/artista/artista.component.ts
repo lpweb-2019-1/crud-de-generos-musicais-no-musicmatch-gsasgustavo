@@ -15,7 +15,7 @@ export class ArtistaComponent implements OnInit {
 
   /**
    * Esta sobrescrita realiza as operações:
-   * 
+   *
    * * acessa o `paramMap`
    * * obtém o valor do parâmetro `id` da rota
    * * converte o valor do parâmetro para string

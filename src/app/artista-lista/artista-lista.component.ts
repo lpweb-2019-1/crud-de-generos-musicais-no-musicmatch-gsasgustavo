@@ -5,7 +5,7 @@ import { Router } from '@angular/router';
 /**
  * O componente `ArtistaListaComponent` implementa funcionalidades de
  * gerenciamento de artistas:
- * 
+ *
  * * lista (consulta)
  * * exclusão (após confirmação do usuário)
  * * acesso à funcionalidade de edição (componente [`EditarArtistaComponent`]{@link EditarArtistaComponent})
@@ -24,7 +24,7 @@ export class ArtistaListaComponent implements OnInit {
 
   /**
    * O construtor injeta uma instância de `ArtistasService` e `Router`
-   * 
+   *
    * @param artistas$ Uma instância de `ArtistasService`
    * @param router Uma instância de `Router`
    */
@@ -38,7 +38,7 @@ export class ArtistaListaComponent implements OnInit {
   }
 
   /**
-   * Este método usa o serviço `ArtistasService` para obter a lista de artistas. 
+   * Este método usa o serviço `ArtistasService` para obter a lista de artistas.
    * Quando houver retorno, armazena o resultado no atributo `artistas`.
    */
   atualizarLista() {
@@ -50,7 +50,7 @@ export class ArtistaListaComponent implements OnInit {
 
   /**
    * Este método exclui um artista, de acordo com confirmação do usuário. Ao excluir, atualiza a lista de artistas.
-   * 
+   *
    * @param artista O artista que será excluído
    */
   excluir(artista) {
@@ -70,7 +70,7 @@ export class ArtistaListaComponent implements OnInit {
 
   /**
    * Este método realiza navegação para a funcionalidade de edição do artista.
-   * 
+   *
    * @param artista O artista que será editado
    */
   editar(artista) {
@@ -79,7 +79,7 @@ export class ArtistaListaComponent implements OnInit {
 
   /**
    * Este método realiza navegação para a funcionalide de consulta do artista.
-   * 
+   *
    * @param artista O artista que será consultado
    */
   consultar(artista) {

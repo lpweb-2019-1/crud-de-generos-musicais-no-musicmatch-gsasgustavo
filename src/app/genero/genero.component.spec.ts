@@ -8,9 +8,9 @@ describe('GeneroComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ GeneroComponent ]
+      declarations: [GeneroComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

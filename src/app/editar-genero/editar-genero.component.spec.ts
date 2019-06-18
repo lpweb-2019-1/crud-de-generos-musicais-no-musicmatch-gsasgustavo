@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ArtistaComponent } from './artista.component';
+import { EditarGeneroComponent } from './editar-genero.component';
 
-describe('ArtistaComponent', () => {
-  let component: ArtistaComponent;
-  let fixture: ComponentFixture<ArtistaComponent>;
+describe('EditarGeneroComponent', () => {
+  let component: EditarGeneroComponent;
+  let fixture: ComponentFixture<EditarGeneroComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ArtistaComponent]
+      declarations: [EditarGeneroComponent]
     })
       .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ArtistaComponent);
+    fixture = TestBed.createComponent(EditarGeneroComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
